@@ -1,0 +1,75 @@
+.cart-container {
+    width: 1200px;
+    margin: 80px auto;
+}
+
+.cart-grid {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 20px;
+}
+
+.cart-info {
+    display: grid;
+    grid-template-columns: .5fr 4fr 2fr 2fr;
+    gap: 20px;
+}
+
+.cart-img {
+    width: 60px;
+}
+
+.cart-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.cart-date {
+    display: block;
+}
+
+.btn-cancel-booking {
+    color: grey;
+}
+
+.cart-options > a {
+    margin-right: 2rem;
+}
+
+.cart-name {
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.cart {
+    padding: 2rem 0;
+    border: 1px solid #d6d6d6;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+}
+
+.payment-total {
+    font-size: 2.4rem;
+    color: var(--primaryColor);
+    font-weight: bold;
+}
+
+.cart-payment {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    padding: 0 1rem 1rem 1rem;
+}
+
+
+.btn-view-detail {
+    padding: 1rem;
+    background: var(--primaryColor);
+    border-radius: 20px;
+    color: #fff;
+}

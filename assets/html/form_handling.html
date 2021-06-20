@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang quản trị</title>
+
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/admin.css">
+</head>
+<body>
+    <div class="page-wrapper chiller-theme toggled">
+      <nav id="sidebar" class="sidebar-wrapper">
+        <div class="sidebar-content">
+          <div class="sidebar-header">
+            <div class="user-pic">
+              <img class="img-responsive img-rounded" src="https://raw.githubusercontent.com/azouaoui-med/pro-sidebar-template/gh-pages/src/img/user.jpg" alt="User picture">
+            </div>
+            <div class="user-info">
+              <span class="user-name">Dang Hoang Long</span>
+              <span class="user-role">Administrator</span>
+            </div>
+          </div>
+          <!-- sidebar-header  -->
+          <div class="sidebar-menu">
+            <ul>
+              <li class="header-menu">
+                <span>General</span>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="/admin.html" class="dashboard">
+                  <i class="fa fa-tachometer-alt"></i>
+                  <span>Bảng điều khiển</span>
+                </a>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#" class="analysis">
+                  <i class="fas fa-chart-pie"></i>
+                  <span>Phân tích</span>
+                </a>
+              </li>
+      
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fa fa-shopping-cart"></i>
+                  <span>Danh mục quản lý</span>
+                </a>
+                <div class="sidebar-submenu">
+                  <ul>
+                    <li>
+                      <a href="/assets/html/admin_product.html">Quản lý chổ ở</a>
+                    </li>
+                    <li>
+                      <a href="#">Quản lý đơn đặt phòng</a>
+                    </li>
+                    <li>
+                      <a href="#">Quản lý đơn đăng bán phòng</a>
+                    </li>
+                    <li>
+                      <a href="#">Quản lý người dùng</a>
+                    </li>
+                    <li>
+                      <a href="#">Quản lý tin tức</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="far fa-gem"></i>
+                  <span>Danh mục giao diện</span>
+                </a>
+                <div class="sidebar-submenu">
+                  <ul>
+                      <li>
+                          <a href="#">Header</a>
+                      </li>
+                      <li>
+                          <a href="#">Slideshow</a>
+                      </li>
+                      <li>
+                          <a href="#">Giao diện</a>
+                      </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#" class="setting-account">
+                  <i class="fa fa-cog"></i>
+                  <span>Cài đặt tài khoản</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- sidebar-content  -->
+        <div class="sidebar-footer">
+          <a href="#">
+              <i class="fas fa-undo" title="Trở lại website"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-power-off" title="Đăng xuất"></i>
+          </a>
+        </div>
+      </nav>
+      
+      <!-- sidebar-wrapper  -->
+      <main class="page-content">
+        <div class="container tab-addproduct">
+          <!-- <h3 class="title">Thêm sản phẩm</h3> -->
+          <div>
+            <h3 class="subtitle">Thông tin chỗ ở</h3>
+            <form action="#" class="form-handler">
+              <div class="product-info">
+                <div class="info-img">
+                  <img id="home-img" src="/assets/img/homeDefault.jpg" alt="">
+                  <input type="file" class="info-img-file">
+                  <i class="fas fa-file-upload"></i>
+                </div>
+                <div class="product-detail-info">
+                  <div>
+                    <label for="#" class="lbl-info">Mã chỗ ở:</label>
+                    <input type="text" value="sp" class="txt-info info-id" disabled>
+                  </div>
+
+                  <div>
+                    <label for="#" class="lbl-info">Tên chỗ ở:</label>
+                    <input style="width: 100%" type="text" class="txt-info info-name">
+                  </div>
+
+                  <div>
+                    <label for="#" class="lbl-info">Địa chỉ:</label>
+                    <input style="width: 100%" type="text" class="txt-info info-address">
+                  </div>
+
+                  <div class="info-flex">
+                    <div style="flex: 2;">
+                      <label for="#" class="lbl-info">Số lượng:</label>
+                      <input type="text" class="txt-info info-amount">
+                      <span>phòng ngủ</span>
+                      <div>(Phải là số)</div>
+                    </div>
+
+                    <div>
+                      <label for="#" class="lbl-info">Loại phòng:</label>
+                      <select class="txt-info info-type">
+                        <option>Homestay</option>
+                        <option>Nhà riêng</option>
+                        <option>Biệt thự</option>
+                        <option>Chung cư</option>
+                        <option>Căn hộ studio</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div>
+                    <label for="#" class="lbl-info">Giá phòng:(1 đêm)</label>
+                    <input type="text" class="txt-info info-price">
+                    <span>VNĐ</span>
+                    <div>(Phải là số)</div>
+                  </div>
+                </div>
+              </div>
+  
+              <label for="#" class="lbl-info" style="margin-bottom: 2rem">Mô tả</label>
+                <textarea name="des" id="product-description" class="txt-info">
+              </textarea>
+
+            </form>
+
+            <div class="handler-action">
+              <a href="#" class="btn-admin btn-save btn-add-save">Lưu</a>
+              <a href="#" class="btn-admin btn-save btn-edit-save">Lưu</a>
+              <a href="/assets/html/admin_product.html" class="btn-return">Quay lại</a>
+            </div>
+          </div>
+        </div>
+    
+      </main>
+
+      <div class="alert alert-success ">
+        <a href="#" class="close">&times;</a>
+        <strong>Success! </strong><span>Bạn đã thêm thành công.</span>
+      </div>
+
+      <div class="alert alert-fail ">
+        <a href="#" class="close">&times;</a>
+        <strong>Fail! </strong><span>Bạn hãy nhập đầy đủ các trường dữ liệu.</span>
+      </div>
+    </div>
+
+    <script src="/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.16.1/ckeditor.js" integrity="sha512-2nFxKVmFuBhAR45DBnAANBjtxzf7z0m6wRU7NOquxibA6efrQpUtdjFT4wzqewqTI3/cCNbBzJNUtu1NxjFiKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script> -->
+    <!-- <script src="//cdn.ckeditor.com/4.5.9/standard/ckeditor.js"></script> -->
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/ckeditor/4.5.9/adapters/jquery.js"></script> -->
+    <!-- <script src="/assets/js/product.js"></script> -->
+    <script src="/assets/js/admin.js"></script>
+    <script src="/assets/js/data.js"></script>
+    <script src="/assets/js/product.js"></script>
+    <script src="/assets/js/handler_product.js"></script>
+</body>
+</html>

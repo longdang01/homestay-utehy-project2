@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/product.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/cart.css">
+</head>
+<body>
+    <div id="cart" class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <a href="#" class="nav-logo">CTW Travel</a>
+                
+                <ul class="nav-list detail-product-nav">
+                    <li class="nav-item"><a href="#hero" class="nav-link current-page">Khám phá</a></li>
+                    <li class="nav-item"><a href="#news" class="nav-link">Tin tức</a></li>
+                    <li class="nav-item"><a href="/assets/html/contact.html" class="nav-link">Liên hệ</a></li>
+                </ul>
+                <div class="nav-options">
+                    <li class="option-item"><a href="#" class="option btn-host">Host</a></li>
+                    <li class="option-item">
+                        <a href="#" class="btn-account show-user-menu">
+                            <img src="/assets/img/img-99.jpg" alt="User Img" class="option-item-img show-user-menu">
+                            <span class="option-item-name show-user-menu">Dang Hoang Long</span>
+                            <span class="down-arrow show-user-menu">
+                                <i class="fas fa-sort-down show-user-menu"></i>
+                            </span>
+                        </a>
+                        <ul class="user-menu show-user-menu">
+                            <span class="triangle"></span>
+                            <li>
+                                <a href="#" class="user-menu-link show-user-menu">
+                                    <i class="fas fa-briefcase show-user-menu"></i>
+                                    <span class="user-menu-name show-user-menu">Đặt chỗ của tôi</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="user-menu-link show-user-menu">
+                                    <i class="far fa-envelope show-user-menu"></i>
+                                    <span class="user-menu-name show-user-menu">Tin nhắn</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/assets/html/user.html" class="user-menu-link show-user-menu">
+                                    <i class="fas fa-cog show-user-menu"></i>
+                                    <span class="user-menu-name show-user-menu">Cài đặt tài khoản</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="user-menu-link show-user-menu">
+                                    <i class="far fa-heart show-user-menu"></i>
+                                    <span class="user-menu-name show-user-menu">Yêu thích</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="user-menu-link show-user-menu btn-logout">
+                                    <i class="fas fa-power-off show-user-menu"></i>
+                                    <span class="user-menu-name show-user-menu">Đăng xuất</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="option-item">
+                        <a href="#" class="btn-language show-region">
+                            <img src="/assets/img/vietnam.png" alt="Viet Nam" class="option-item-img show-region">
+                            <span class="option-item-name show-region">VND</span>
+                            <span class="down-arrow show-region">
+                                <i class="fas fa-sort-down show-region"></i>
+                            </span>
+                        </a>
+                        <ul class="list-region show-region">
+                            <span class="triangle show-region"></span>
+                            <ul class="list-region-lan show-region">
+                                <li class="lan-item show-region">
+                                    <a href="#" class="lan-link show-region">
+                                        <img src="/assets/img/vietnam.png" alt="VietNam" class="lan-img show-region">
+                                        <span class="lan-name show-region">Tiếng Việt</span>
+                                        <i class="fas fa-check show-region"></i>
+                                    </a>
+                                </li>
+                                <li class="lan-item show-region">
+                                    <a href="#" class="lan-link show-region">
+                                        <img src="/assets/img/england.png" alt="England" class="lan-img show-region">
+                                        <span class="lan-name show-region">English</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <ul class="list-region-price show-region">
+                                <li class="price-item show-region">
+                                    <a href="#" class="price-link show-region">
+                                        <strong class="show-region">VND</strong>
+                                        <span class="price-name show-region">Việt Nam Đồng</span>
+                                        <i class="fas fa-check show-region"></i>
+                                    </a>
+                                </li>
+                                <li class="price-item show-region">
+                                    <a href="#" class="price-link show-region">
+                                        <strong class="show-region">USD</strong>
+                                        <span class="price-name show-region">United States Dollar</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    
+                </div>                
+            </nav>
+        </header>
+
+        <div class="cart-container">
+            <h3 class="cart-title title">Đặt phòng của bạn</h3>
+            <div class="cart-grid">
+                <div class="carts">
+                    <!-- <div class="cart">
+                        <div class="cart-info">
+                            <img src="/assets/img/homestay1.jpg" alt="" class="cart-img">
+                            <div>
+                                <div class="cart-name">Giraffe Room</div>
+                                <div class="cart-address">Hà Nội, Việt Nam</div>
+                                <div>
+                                    <span class="cart-price">1,350,000đ</span>
+                                    <span>/đêm</span>
+                                </div>
+                            </div>
+        
+                            <div>
+                                <div>
+                                    <i class="far fa-calendar-alt"></i>
+                                    <span class="cart-time">1</span>
+                                    <span>đêm</span>
+                                    <span class="cart-date">
+                                        <span>2021-05-06</span>
+                                        <span>/</span>
+                                        <span>2021-05-10</span>
+                                    </span>
+                                </div>
+    
+                                <div>
+                                    <i class="fas fa-user-friends"></i>
+                                    <span class="cart-visitors">2</span>
+                                    <span>Khách</span>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <h3>Giá phòng</h3>
+                                <div>
+                                    <span class="cart-total">2,700,000đ</span>
+                                    <span>/đêm</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-options">
+                            <a href="#" class="btn-cancel-booking">Hủy đặt phòng</a>
+                            <a href="#" class="btn-view-detail">Xem chi tiết</a>
+                        </div>
+                    </div> -->
+                </div>
+    
+                <div class="cart-payment">
+                    <div>
+                        <h3 class="title">Tổng chi</h3>
+                        <div class="payment-total">0đ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-cancel-booking modal" style="display: none">
+            <div class="modal-content">
+                <a href="#" class="btn-close"><i class="fas fa-times"></i></a>
+                <h3 class="modal-content-title title">Thông báo</h3>
+
+                <div>Bạn có chắc là muốn hủy đặt phòng không?</div>
+
+                <div class="modal-footer" style="margin-top: 5rem; text-align: center;">
+                    <button class="btn-back" style="border-radius: 5px; border: 1px solid #d6d6d6; padding: .5rem 1rem; color: grey;">Không</button>
+                    <button class="btn-apply-cancel" style="background: var(--primaryColor); border-radius: 5px; color: #fff; padding: .5rem 1rem;">Tôi chốt 100%</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="/assets/js/data.js"></script>
+    <script src="/assets/js/account.js"></script>
+    <script src="/assets/js/navbar.js"></script>
+    <script src="/assets/js/product.js"></script>
+    <script src="/assets/js/detail_product.js"></script>
+    <script src="/assets/js/cart.js"></script>
+</body>
+</html>

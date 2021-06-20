@@ -1,0 +1,18 @@
+.frm-user {
+    margin-top: 2rem;
+}
+
+.user-container {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    gap: 30px;
+    max-width: 1200px;
+}
+
+.user-info {
+    display: block;
+}
+
+.modal-content {
+    border: 1px solid #d6d6d6;
+}

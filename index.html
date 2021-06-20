@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+</head>
+<body>
+    <div class="wrapper" id="index-page">
+        <header class="header">
+            <nav class="nav">
+                <a href="#" class="nav-logo">CTW Travel</a>
+
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#hero" class="nav-link current-page">Khám phá</a></li>
+                    <li class="nav-item"><a href="#news" class="nav-link">Tin tức</a></li>
+                    <li class="nav-item"><a href="#" class="contact-page nav-link">Liên hệ</a></li>
+                </ul>
+
+                <div class="nav-options">
+                    <li class="option-item"><a href="#" class="option btn-host">Host</a></li>
+                    
+                    <li class="option-item"><a href="#" class="option btn-register">Đăng ký</a></li>
+                    <li class="option-item"><a href="#" class="option btn-login">Đăng nhập</a></li>
+                    
+                    <li class="option-item">
+                        <a href="#" class="btn-language show-region">
+                            <img src="./assets/img/vietnam.png" alt="Viet Nam" class="option-item-img show-region">
+                            <span class="option-item-name show-region">VND</span>
+                            <span class="down-arrow show-region">
+                                <i class="fas fa-sort-down show-region"></i>
+                            </span>
+                        </a>
+                        <ul class="list-region show-region">
+                            <span class="triangle show-region"></span>
+                            <ul class="list-region-lan show-region">
+                                <li class="lan-item show-region">
+                                    <a href="#" class="lan-link show-region">
+                                        <img src="./assets/img/vietnam.png" alt="VietNam" class="lan-img show-region">
+                                        <span class="lan-name show-region">Tiếng Việt</span>
+                                        <i class="fas fa-check show-region"></i>
+                                    </a>
+                                </li>
+                                <li class="lan-item show-region">
+                                    <a href="#" class="lan-link show-region">
+                                        <img src="./assets/img/england.png" alt="England" class="lan-img show-region">
+                                        <span class="lan-name show-region">English</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <ul class="list-region-price show-region">
+                                <li class="price-item show-region">
+                                    <a href="#" class="price-link show-region">
+                                        <strong class="show-region">VND</strong>
+                                        <span class="price-name show-region">Việt Nam Đồng</span>
+                                        <i class="fas fa-check show-region"></i>
+                                    </a>
+                                </li>
+                                <li class="price-item show-region">
+                                    <a href="#" class="price-link show-region">
+                                        <strong class="show-region">USD</strong>
+                                        <span class="price-name show-region">United States Dollar</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    
+                </div>                
+            </nav>
+        </header>
+
+        <section id="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h3 class="hero-content-title">Khám phá những địa điểm mới</h3>
+                    <p class="hero-content-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eligendi vero enim qui accusantium. Illo quisquam porro iste consequuntur saepe?</p>
+
+                    <div class="hero-content-search">
+                        <span class="search-location">
+                            <i class="fas fa-search"></i>
+                            <input class="txt-place" type="search" placeholder="Tìm kiếm...">
+                            <div class="location-suggest">
+                                <h3 class="location-suggest-title">Tìm kiếm gần đây</h3>
+                                <a href="#" class="location-link show-date">
+                                    <i class="fas fa-map-marker-alt show-date"></i>
+                                    <span class="show-date">Đà Nẵng</span>
+                                </a>
+
+                                <a href="#" class="location-link show-date">
+                                    <i class="fas fa-map-marker-alt show-date"></i>
+                                    <span class="show-date">Hà Nội</span>
+                                </a>
+
+                                <a href="#" class="location-link show-date">
+                                    <i class="fas fa-map-marker-alt show-date"></i>
+                                    <span class="show-date">Thành phố Hồ Chí Minh</span>
+                                </a>
+                            </div>
+                        </span>
+
+                        <button type="button" class="button-date">
+                            <a href="#" class="btn btn-date show-date">
+                                <i class="far fa-calendar show-date"></i>
+                                <span class="txt-date show-date">Ngày</span>
+                                <!-- <span>May 09 - May 28</span> -->
+                            </a>
+
+                            <div class="date-inner show-date">
+                                <div class="date-choice">
+                                    <div class="checkin show-date">
+                                        <label for="#" class="lbl-date show-date">Nhận phòng</label>
+                                        <input id="today" type="date" name="" class="checkinday show-date" required>
+                                    </div>
+                                    <div class="checkout show-date">
+                                        <label for="#" class="lbl-date show-date">Trả phòng</label>
+                                        <input type="date" name="" id="" class="checkoutday show-date" required>
+                                    </div>
+                                </div>
+
+                                <div class="date-options show-date">
+                                    <a href="#" class="btn-remove-date show-date">Xóa</a>
+                                    <a href="#" class="btn-apply-date show-visitor">Áp dụng</a>
+                                </div>
+                            </div>
+                        </button>    
+
+                        <button type="button" class="button-user">
+                            <a href="#" class="btn btn-user show-visitor">
+                                <i class="fas fa-user show-visitor"></i>
+                                <span class="lbl-visitor show-visitor">Khách</span>
+                            </a>
+
+                            <div class="visitor-inner show-visitor">
+                                <div class="visitor-box show-visitor">
+                                    <span class="show-visitor">Người lớn</span>
+                                    <div class="visitor-amount show-visitor">
+                                        <span class="btn-circle btn-minus is-disabled show-visitor"><i class="fas fa-minus show-visitor"></i></span>
+                                        <input class="txt-visitor show-visitor" type="text" value="0"  readonly/>
+                                        <span class="adult btn-circle btn-plus show-visitor"><i class="fas fa-plus show-visitor"></i></span>
+                                    </div>
+                                </div>
+
+                                <div class="visitor-box show-visitor">
+                                    <span class="show-visitor">Trẻ em (tuổi từ 2 - 12)</span>
+                                    <div class="visitor-amount show-visitor">
+                                        <span class="btn-circle btn-minus is-disabled show-visitor"><i class="fas fa-minus show-visitor"></i></span>
+                                        <input class="txt-visitor show-visitor" type="text" value="0" readonly/>
+                                        <span class="btn-circle btn-plus show-visitor"><i class="fas fa-plus show-visitor"></i></span>
+                                    </div>
+                                </div>
+
+                                <div class="visitor-box show-visitor">
+                                    <span class="show-visitor">Trẻ sơ sinh (Dưới 2 tuổi)</span>
+                                    <div class="visitor-amount show-visitor">
+                                        <span class="btn-circle btn-minus is-disabled show-visitor"><i class="fas fa-minus show-visitor"></i></span>
+                                        <input class="txt-visitor show-visitor" type="text" value="0" readonly/>
+                                        <span class="btn-circle btn-plus show-visitor"><i class="fas fa-plus show-visitor"></i></span>
+                                    </div>
+                                </div>
+
+                                <div class="visitor-options show-visitor">
+                                    <a href="#" class="btn-remove-visitor show-visitor">Xóa</a>
+                                    <a href="#" class="btn-apply-visitor">Áp dụng</a>
+                                </div>
+                            </div>
+
+                        </button>  
+
+                        <a href="/assets/html/product.html" class="btn-search">
+                            <span><i class="fas fa-search"></i></span>
+                        </a>
+                    </div>
+
+                    <div class="hero-content-places">
+                        <strong>Phổ biến: </strong>
+                        <a href="#">Đà Nẵng</a>,
+                        <a href="#">Hà Nội</a>,
+                        <a href="#">Thành phố Hồ Chí Minh</a>
+                    </div>
+                </div>
+
+                <div class="hero-slide-container">
+                    <i class="fas fa-chevron-left btn-arrow btn-prev"></i>
+                    <div class="hero-slide">
+                        <img src="./assets/img/img-1.jpg" alt="" class="active slide-img">
+                        <img src="./assets/img/img-2.jpg" alt="" class="slide-img">
+                        <img src="./assets/img/img-3.jpg" alt="" class="slide-img">
+                        <img src="./assets/img/img-4.jpg" alt="" class="slide-img">
+                        <img src="./assets/img/img-5.jpg" alt="" class="slide-img">
+                    </div>
+                    <i class="fas fa-chevron-right btn-arrow btn-next"></i>
+                </div>
+            </div>
+        </section>
+
+        <section id="places-popular" class="container">
+            <h3 class="title">Địa điểm nổi bật</h3>
+            <p class="description">Cùng CTW Travel khám phá thế giới</p>
+
+            <div class="places">
+                <div class="places-main">
+                    <div class="places-main-img"></div>
+                    <a href="/assets/html/product.html" class="btn-places-main btn-sub">Đà Nẵng</a>
+                </div>
+
+                <div class="places-sub">
+                    <div class="places-sub-item">
+                        <div class="sub-item-img"></div>
+                        <a href="/assets/html/product.html" class="btn-places-sub btn-sub">Hà Nội</a>
+                    </div>
+
+                    <div class="places-sub-item">
+                        <div class="sub-item-img last-places"></div>
+                        <a href="/assets/html/product.html" class="btn-places-sub btn-sub">Thành phố Hồ Chí Minh</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <div class="about">
+                <div class="about-inner">
+                    <h3 class="title about-title">Về chúng tôi</h3>
+                    <p class="description about-description"><strong>CTW Travel</strong> đang là nền tảng website số một thế giới về lĩnh vực đặt phòng du lịch. Đến với chúng tôi, bạn sẽ nhận được những chuyến đi thú vị, trải nghiệm những điều mới mẻ. Mọi thứ sẽ trở nên dễ dàng và thuận tiện khi bạn đặt phòng qua website...</p>
+                    <a href="#" class="btn-about">Tìm hiểu thêm</a>
+                    <a href="#" class="btn-about-host">Trở thành host</a>
+                    <div class="triangle triangle-about"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="rooms" class="container">
+            <h3 class="title">Gợi ý từ CTW Travel</h3>
+            <p class="description">Những địa điểm phổ biến mà CTW Travel gợi ý cho bạn</p>
+            <div class="rooms-inner">
+            </div>
+
+            <div class="room-load">
+                <a href="/assets/html/product.html" class="btn-loadmore">Xem thêm</a>
+            </div>
+        </section>
+
+        <section id="news" class="container">
+            <h3 class="title">Tin tức từ CTW Travel</h3>
+            <p class="description">Mang lại cho bạn những thông tin cập nhất mới nhất</p>
+            <div class="news">
+            </div>
+            <div class="news-load">
+                <a href="/assets/html/news.html" class="btn-loadmore">Xem thêm</a>
+            </div>
+        </section>
+
+        <section id="partner" class="container">
+            <h3 class="title">Đồng hành cùng CTW Travel</h3>
+            <p class="description">Những người bạn đồng hành cùng CTW Travel</p>
+            <div class="partners">
+                <img src="./assets/img/luxstay.png" alt="">
+                <img src="./assets/img/airbnb.png" alt="">
+                <img src="./assets/img/traveloka.png" alt="">
+                <img src="./assets/img/agoda.png" alt="">
+                <img src="./assets/img/booking.png" alt="">
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="footer">
+                <h3 class="footer-brand">
+                    CTW Travel
+                    
+                </h3>
+                
+                <div class="footer-item">
+                    <h3 class="footer-title">Top Homestay được yêu thích</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item"><a href="#" class="footer-link">Homestay Đà lạt</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Homestay Hà Nội</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Homestay Hồ Chí Minh</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Homestay Hội An</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Homestay Hạ Long</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-item">
+                    <h3 class="footer-title">Không gian ưa thích</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item"><a href="#" class="footer-link">Căn hộ dịch vụ</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Biệt thự</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Nhà riêng</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Studio</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-item">
+                    <h3 class="footer-title">Theo dõi chúng tôi</h3>
+                    
+                    <ul class="footer-list socials">
+                        <li class="footer-item"><a href="#" class="footer-link"><i class="fab fa-facebook-square"></i></a></li>
+                        <li class="footer-item"><a href="#" class="footer-link"><i class="fab fa-twitter-square"></i></a></li>
+                        <li class="footer-item"><a href="#" class="footer-link"><i class="fab fa-instagram"></i></a></li>
+                        <li class="footer-item"><a href="#" class="footer-link"><i class="fab fa-pinterest"></i></a></li>
+                        <li class="footer-item"><a href="#" class="footer-link"><i class="fab fa-google"></i></a></li>
+                    </ul>
+                  
+                </div>
+            </div>
+        </footer>
+
+        <!-- Đăng nhập -->
+        <div class="modal-login modal">
+            <div class="modal-content">
+                <a href="#" class="btn-close"><i class="fas fa-times"></i></a>
+                <h3 class="modal-content-title title">Đăng nhập</h3>
+
+                <form action="#">
+                    <div class="content-email">
+                        <input class="txt-user email" type="text" placeholder="Địa chỉ email" required>
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="content-password">
+                        <input class="txt-user password" type="password" placeholder="Mật khẩu" required>
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="options-pass">
+                        <input type="checkbox" id="remember"><label for="remember" class="lbl-remember">Nhớ mật khẩu</label>
+                        <a href="#" class="btn-forget">Quên mật khẩu</a>
+                    </div>
+                    <button type="submit" class="btn btn-login-submit">Đăng nhập</button>
+                    <h3 class="title-separate">Hoặc</h3>
+                    <a href="#" class="login-facebook login-option"><span>Đăng nhập với Facebook</span><i class="fab fa-facebook-square"></i></a>                    
+                    <a href="#" class="login-google login-option"><span>Đăng nhập với Google</span><i class="fab fa-google"></i></a>                    
+                </form>
+            </div>
+        </div>
+        <!-- Đăng ký -->
+        <div class="modal-register modal">
+            <div class="modal-content">
+                <a href="#" class="btn-close"><i class="fas fa-times"></i></a>
+                <h3 class="modal-content-title title">Đăng ký</h3>
+
+                <form action="#">
+                    <div class="content-name">
+                        <input class="txt-user register-name" type="text" placeholder="Họ và tên" required>
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="content-email">
+                        <input class="txt-user register-email" type="text" placeholder="Địa chỉ email" required>
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="content-password">
+                        <input class="txt-user register-password" type="password" placeholder="Mật khẩu" required>
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="content-verify-password">
+                        <input class="txt-user verify-password" type="password" placeholder="Xác nhận mật khẩu" required>
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <button type="submit" class="btn btn-register-submit">Đăng ký</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="container modal-contact modal">
+            <div class="modal-content content-contact-page">
+                <div class="about">
+                    <div class="about-inner">
+                        <h3 class="title about-title">Về chúng tôi</h3>
+                        <p class="description about-description"><strong>CTW Travel</strong> đang là nền tảng website số một thế giới về lĩnh vực đặt phòng du lịch. Đến với chúng tôi, bạn sẽ nhận được những chuyến đi thú vị, trải nghiệm những điều mới mẻ. Mọi thứ sẽ trở nên dễ dàng và thuận tiện khi bạn đặt phòng qua website, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi sit omnis accusantium vel obcaecati. Quis quod aliquam nobis sapiente porro.</p>
+                        <div class="triangle triangle-about"></div>
+                    </div>
+                </div>
+    
+                <div class="contact">
+                    <h3 class="title">Liên hệ</h3>
+                    <div class="contact-inner">
+                        <div class="contact-inner-main">
+                            <input type="text" placeholder="Họ và tên" class="txt-contact-name"/>
+                            <div>
+                                <input class="txt-contact-email" type="text" placeholder="Địa chỉ email" />
+                                <input class="txt-contact-phone" type="text" placeholder="Số điện thoại" />
+                            </div>
+                            <textarea placeholder="Tin nhắn" cols="30" rows="10" class="txt-contact-message"></textarea>
+    
+                            <button type="button" class="btn-sub btn-message">Gửi tin nhắn</button>
+                        </div>
+                        
+                        <div class="contact-inner-sidebar">
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                (+84) 71 603 963
+                            </div>
+                            <div class="contact-item">
+                                <i class="far fa-envelope"></i>
+                                ctwtravel@gmail.com
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Cau Giay, Ha Noi
+                            </div>
+    
+                            <ul class="footer-list socials socials-contact">
+                                <li class="footer-item"><a href="#" class="footer-link"><i class="fab fa-facebook-square"></i></a></li>
+                                <li class="footer-item"><a href="#" class="footer-link"><i class="fab fa-twitter-square"></i></a></li>
+                                <li class="footer-item"><a href="#" class="footer-link"><i class="fab fa-instagram"></i></a></li>
+                                <li class="footer-item"><a href="#" class="footer-link"><i class="fab fa-pinterest"></i></a></li>
+                                <li class="footer-item"><a href="#" class="footer-link"><i class="fab fa-google"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- <div class="alert">
+            <span class="close-alert">&times;</span> 
+            <span>Bạn hãy đăng nhập để trở thành Host(Nếu chưa có tài khoản hãy đăng ký)</span>
+        </div> -->
+
+        <div class="alert alert-fail ">
+            <a href="#" class="close">&times;</a>
+            <strong>Fail! </strong><span>Bạn hãy nhập đầy đủ các trường dữ liệu.</span>
+          </div>
+
+        <table style="display: none;" class="product-list">
+            <tr>
+              <th>STT</th>
+              <th>Mã chỗ ở</th>
+              <th>Tên chỗ ở</th>
+              <th>Địa chỉ</th>
+              <th>Giá phòng</th>
+              <th>Loại phòng</th>
+              <th>Hình ảnh</th>
+              <th>Tác vụ</th>
+              <th>Hiển thị</th>
+            </tr>
+            <tbody class="tb-body">
+              <!-- Render -->
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/slide.js"></script>
+    <script src="/assets/js/search-tool.js"></script>
+    <script src="/assets/js/data.js"></script>
+    <script src="./assets/js/account.js"></script>
+    <script src="./assets/js/navbar.js"></script>
+    <script src="/assets/js/admin.js"></script>
+    <script src="/assets/js/news.js"></script>
+    <script src="/assets/js/detail_news.js"></script>
+    <script src="./assets/js/product.js"></script>
+    <script src="/assets/js/detail_product.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

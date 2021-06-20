@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/product.css">
+</head>
+<body>
+    <div id="detail-product" class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <a href="#" class="nav-logo">CTW Travel</a>
+                
+                <ul class="nav-list detail-product-nav">
+                    <li class="nav-item"><a href="#hero" class="nav-link current-page">Khám phá</a></li>
+                    <li class="nav-item"><a href="#news" class="nav-link">Tin tức</a></li>
+                    <li class="nav-item"><a href="/assets/html/contact.html" class="nav-link">Liên hệ</a></li>
+                </ul>
+                <div class="nav-options">
+                    <li class="option-item"><a href="#" class="option btn-host">Host</a></li>
+                    <li class="option-item">
+                        <a href="#" class="btn-account show-user-menu">
+                            <img src="/assets/img/img-99.jpg" alt="User Img" class="option-item-img show-user-menu">
+                            <span class="option-item-name show-user-menu">Dang Hoang Long</span>
+                            <span class="down-arrow show-user-menu">
+                                <i class="fas fa-sort-down show-user-menu"></i>
+                            </span>
+                        </a>
+                        <ul class="user-menu show-user-menu">
+                            <span class="triangle"></span>
+                            <li>
+                                <a href="/assets/html/cart.html" class="user-menu-link show-user-menu">
+                                    <i class="fas fa-briefcase show-user-menu"></i>
+                                    <span class="user-menu-name show-user-menu">Đặt chỗ của tôi</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="user-menu-link show-user-menu">
+                                    <i class="far fa-envelope show-user-menu"></i>
+                                    <span class="user-menu-name show-user-menu">Tin nhắn</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/assets/html/user.html" class="user-menu-link show-user-menu">
+                                    <i class="fas fa-cog show-user-menu"></i>
+                                    <span class="user-menu-name show-user-menu">Cài đặt tài khoản</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="user-menu-link show-user-menu">
+                                    <i class="far fa-heart show-user-menu"></i>
+                                    <span class="user-menu-name show-user-menu">Yêu thích</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="user-menu-link show-user-menu btn-logout">
+                                    <i class="fas fa-power-off show-user-menu"></i>
+                                    <span class="user-menu-name show-user-menu">Đăng xuất</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="option-item">
+                        <a href="#" class="btn-language show-region">
+                            <img src="/assets/img/vietnam.png" alt="Viet Nam" class="option-item-img show-region">
+                            <span class="option-item-name show-region">VND</span>
+                            <span class="down-arrow show-region">
+                                <i class="fas fa-sort-down show-region"></i>
+                            </span>
+                        </a>
+                        <ul class="list-region show-region">
+                            <span class="triangle show-region"></span>
+                            <ul class="list-region-lan show-region">
+                                <li class="lan-item show-region">
+                                    <a href="#" class="lan-link show-region">
+                                        <img src="/assets/img/vietnam.png" alt="VietNam" class="lan-img show-region">
+                                        <span class="lan-name show-region">Tiếng Việt</span>
+                                        <i class="fas fa-check show-region"></i>
+                                    </a>
+                                </li>
+                                <li class="lan-item show-region">
+                                    <a href="#" class="lan-link show-region">
+                                        <img src="/assets/img/england.png" alt="England" class="lan-img show-region">
+                                        <span class="lan-name show-region">English</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <ul class="list-region-price show-region">
+                                <li class="price-item show-region">
+                                    <a href="#" class="price-link show-region">
+                                        <strong class="show-region">VND</strong>
+                                        <span class="price-name show-region">Việt Nam Đồng</span>
+                                        <i class="fas fa-check show-region"></i>
+                                    </a>
+                                </li>
+                                <li class="price-item show-region">
+                                    <a href="#" class="price-link show-region">
+                                        <strong class="show-region">USD</strong>
+                                        <span class="price-name show-region">United States Dollar</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    
+                </div>                
+            </nav>
+        </header>
+
+        <div class="hero-slide-container">
+            <i class="fas fa-chevron-left btn-arrow btn-prev"></i>
+            <div class="hero-slide">
+                <img src="/assets/img/homestay1.jpg" alt="" class="active slide-img detail-img">
+                <img src="/assets/img/homestay2.jpg" alt="" class="slide-img">
+                <img src="/assets/img/homestay3.jpg" alt="" class="slide-img">
+                <img src="/assets/img/homestay4.jpg" alt="" class="slide-img">
+                <img src="/assets/img/homestay5.jpg" alt="" class="slide-img">
+            </div>
+            <i class="fas fa-chevron-right btn-arrow btn-next"></i>
+        </div>
+
+        <section id="details" class="detail-room-container">
+            <div class="detail-col">
+                <div class="detail-room">
+                    <h1 class="title detail-name">Giraffe Room</h1>
+    
+                    <div class="detail-info">
+                      <i class="fas fa-map-marker-alt detail-icon"></i>
+                      <span class="detail-address">Hà Nội, Việt Nam</span>
+                      <a href="#" class="detail-map">Xem bản đồ</a>
+                    </div>
+    
+                    <div class="detail-info">
+                        <i class="fas fa-building detail-icon"></i>
+                        <span class="detail-type">Căn hộ Studio</span>
+                    </div>
+    
+                    <div class="detail-info">
+                        <i class="fas fa-bed detail-icon"></i>
+                        <span class="detail-amount">1 phòng ngủ</span>
+                    </div>
+    
+                    <p class="detail-description">
+                        Giraffe Room một căn hộ studio 40 mét vuông với lối kiến trúc châu Phi. Có thể mở ra cho bạn những ngạc nhiên về một vùng đất mới.
+                        Được trang trí độc đáo theo phong cách châu Phi và nằm trong Khu Phố Cổ Hà Nội. Do đó, chỉ cần đi bộ 5 phút là bạn có thể đến tất cả các điểm tham quan nổi tiếng trong thành phố.
+                    </p>
+                </div>
+
+                <div class="detail-utilities-container">
+                    <h3 class="subtitle">Tiện nghi chỗ ở</h3>
+                    <p class="description">Giới thiệu về các tiện nghi và dịch vụ tại nơi lưu trú</p>
+                    <div class="detail-utilities-item">
+                        <h3 class="subtitle">Tiện ích</h3>
+                        <ul class="item-grid">
+                            <li>
+                                <svg version="1.1" viewBox="0 0 24 24" class="svg-icon svg-fill" alt="" style="width: 24px; height: 24px;"><g fill="#000" fill-rule="nonzero"><path pid="0" d="M23.44 9.04a.502.502 0 01-.354-.146A14.9 14.9 0 0012.48 4.5 14.903 14.903 0 001.873 8.894a.5.5 0 01-.707-.707A15.896 15.896 0 0112.48 3.5c4.274 0 8.292 1.665 11.313 4.687a.5.5 0 01-.353.853z"></path><path pid="1" d="M20.612 11.868a.502.502 0 01-.354-.146c-4.289-4.288-11.268-4.288-15.557 0a.5.5 0 01-.707-.707c4.679-4.679 12.292-4.679 16.971 0a.5.5 0 01-.353.853z"></path><path pid="2" d="M17.783 14.697a.502.502 0 01-.354-.146 6.954 6.954 0 00-4.95-2.05c-1.87 0-3.627.728-4.95 2.05a.5.5 0 01-.707-.707 7.948 7.948 0 015.657-2.343c2.137 0 4.146.832 5.657 2.343a.5.5 0 01-.353.853zM12.48 20.5a2.503 2.503 0 01-2.5-2.5c0-1.378 1.122-2.5 2.5-2.5s2.5 1.122 2.5 2.5-1.122 2.5-2.5 2.5zm0-4c-.827 0-1.5.673-1.5 1.5s.673 1.5 1.5 1.5 1.5-.673 1.5-1.5-.673-1.5-1.5-1.5z"></path></g></svg>
+                                <span>Wifi</span>
+                            </li>
+
+                            <li>
+                                <svg version="1.1" viewBox="0 0 24 24" class="svg-icon svg-fill" alt="" style="width: 24px; height: 24px;"><path pid="0" fill="#000" fill-rule="nonzero" d="M16.293 14H8.707l-1.853 1.854a.5.5 0 01-.708-.708L7.293 14H3.5a.5.5 0 01-.5-.5v-11a.5.5 0 01.5-.5h18a.5.5 0 01.5.5v11a.5.5 0 01-.5.5h-3.793l1.147 1.146a.5.5 0 01-.708.708L16.293 14zM4 3v10h17V3H4zM3 21.5v1a.5.5 0 11-1 0V18a1.5 1.5 0 011.5-1.5h18A1.5 1.5 0 0123 18v4.5a.5.5 0 11-1 0v-1H3zm0-1h19V18a.5.5 0 00-.5-.5h-18a.5.5 0 00-.5.5v2.5zm8.5-1a.5.5 0 110-1h2a.5.5 0 110 1h-2zM5.854 5.854a.5.5 0 11-.708-.708l1-1a.5.5 0 11.708.708l-1 1zm0 3a.5.5 0 11-.708-.708l4-4a.5.5 0 11.708.708l-4 4z"></path></svg>
+                                <span>TV</span>
+                            </li>
+
+                            <li>
+                                <svg version="1.1" viewBox="0 0 24 24" class="svg-icon svg-fill" alt="" style="width: 24px; height: 24px;"><path pid="0" fill="#000" fill-rule="nonzero" d="M23 8.5h-2.085a1.5 1.5 0 01-2.83 0H1v4a.5.5 0 00.5.5h1v-.5A1.5 1.5 0 014 11h16a1.5 1.5 0 011.5 1.5v.5h1a.5.5 0 00.5-.5v-4zm0-1v-2a.5.5 0 00-.5-.5h-21a.5.5 0 00-.5.5v2h17.085a1.5 1.5 0 012.83 0H23zM20.5 13v-.5a.5.5 0 00-.5-.5H4a.5.5 0 00-.5.5v.5h17zm-19-9h21A1.5 1.5 0 0124 5.5v7a1.5 1.5 0 01-1.5 1.5h-21A1.5 1.5 0 010 12.5v-7A1.5 1.5 0 011.5 4zm5.886 16.182a.5.5 0 01-.772.636c-.817-.993-.817-2.086-.009-3.125.525-.674.525-1.248.009-1.875a.5.5 0 01.772-.636c.817.993.817 2.086.009 3.125-.525.674-.525 1.248-.009 1.875zm5 0a.5.5 0 01-.772.636c-.817-.993-.817-2.086-.009-3.125.525-.674.525-1.248.009-1.875a.5.5 0 01.772-.636c.817.993.817 2.086.009 3.125-.525.674-.525 1.248-.009 1.875zm5 0a.5.5 0 01-.772.636c-.817-.993-.817-2.086-.009-3.125.525-.674.525-1.248.009-1.875a.5.5 0 01.772-.636c.817.993.817 2.086.009 3.125-.525.674-.525 1.248-.009 1.875z"></path></svg>
+                                <span>Điều hòa</span>
+                            </li>
+
+                            <li>
+                                <svg version="1.1" viewBox="0 0 24 24" class="svg-icon svg-fill" alt="" style="width: 24px; height: 24px;"><path pid="0" fill="#000" fill-rule="nonzero" d="M15.07 11.21a4.5 4.5 0 100 6.58c-2.093-1.832-2.093-4.748 0-6.58zm.651.759c-1.628 1.432-1.628 3.63 0 5.062A4.48 4.48 0 0016.5 14.5a4.48 4.48 0 00-.779-2.531zM10 1H4.5a.5.5 0 00-.5.5V5h6V1zm1 0v4h9V1.5a.5.5 0 00-.5-.5H11zM4 6v17h16V6H4zm.5-6h15A1.5 1.5 0 0121 1.5v22a.5.5 0 01-.5.5h-17a.5.5 0 01-.5-.5v-22A1.5 1.5 0 014.5 0zM12 20a5.5 5.5 0 110-11 5.5 5.5 0 010 11zM6 3.5a.5.5 0 010-1h2a.5.5 0 010 1H6zM18 4a1 1 0 110-2 1 1 0 010 2zm-3 0a1 1 0 110-2 1 1 0 010 2z"></path></svg>
+                                <span>Máy giặt</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-utilities-item">
+                        <h3 class="subtitle">Tiện ích bếp</h3>
+                        <ul class="item-grid">
+                            <li>
+                                <svg version="1.1" viewBox="0 0 24 24" class="svg-icon svg-fill" alt="" style="width: 24px; height: 24px;"><g fill-rule="evenodd" transform="translate(1)"><path pid="0" d="M2 0h18a2 2 0 012 2v20a2 2 0 01-2 2H2a2 2 0 01-2-2V2a2 2 0 012-2zm1 1a2 2 0 00-2 2v18a2 2 0 002 2h16a2 2 0 002-2V3a2 2 0 00-2-2H3z"></path><path pid="1" d="M11 19a8 8 0 110-16 8 8 0 010 16zm0-1a7 7 0 100-14 7 7 0 000 14z"></path><rect pid="2" width="5" height="1" x="14" y="21" rx=".5"></rect><rect pid="3" width="2" height="1" x="3" y="21" rx=".5"></rect><rect pid="4" width="2" height="1" x="6" y="21" rx=".5"></rect></g></svg>
+                                <span>Bếp điện</span>
+                            </li>
+
+                            <li>
+                                <svg version="1.1" viewBox="0 0 24 24" class="svg-icon svg-fill" alt="" style="width: 24px; height: 24px;"><path pid="0" fill="#000" fill-rule="nonzero" d="M16 10V8.5a.5.5 0 00-.5-.5h-11a.5.5 0 00-.5.5v8a.5.5 0 00.5.5h11a.5.5 0 00.5-.5V15h-.5a1.5 1.5 0 01-1.5-1.5v-2a1.5 1.5 0 011.5-1.5h.5zm0 1h-.5a.5.5 0 00-.5.5v2a.5.5 0 00.5.5h.5v-3zM1.5 4h21A1.5 1.5 0 0124 5.5v14a1.5 1.5 0 01-1.5 1.5h-21A1.5 1.5 0 010 19.5v-14A1.5 1.5 0 011.5 4zm0 1a.5.5 0 00-.5.5v14a.5.5 0 00.5.5h21a.5.5 0 00.5-.5v-14a.5.5 0 00-.5-.5h-21zm3 2h11A1.5 1.5 0 0117 8.5v8a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 013 16.5v-8A1.5 1.5 0 014.5 7zm1.354 3.853a.5.5 0 01-.708-.707l1-1a.5.5 0 01.708.707l-1 1zm0 3a.5.5 0 01-.708-.707l4-4a.5.5 0 01.708.707l-4 4zM20 9a1 1 0 110-2 1 1 0 010 2zm0 4a1 1 0 110-2 1 1 0 010 2zm0 4a1 1 0 110-2 1 1 0 010 2z"></path></svg>
+                                <span>Lò vi sóng</span>
+                            </li>
+
+                            <li>
+                                <svg version="1.1" viewBox="0 0 24 24" class="svg-icon svg-fill" alt="" style="width: 24px; height: 24px;"><path pid="0" fill="#000" fill-rule="nonzero" d="M17.5 0A1.5 1.5 0 0119 1.5v21a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 015 22.5v-21A1.5 1.5 0 016.5 0h11zM6 13h12V1.5a.5.5 0 00-.5-.5h-11a.5.5 0 00-.5.5V13zm0 1v8.5a.5.5 0 00.5.5h11a.5.5 0 00.5-.5V14H6zm1-6.5a.5.5 0 011 0v4a.5.5 0 11-1 0v-4zm0 8a.5.5 0 111 0v4a.5.5 0 11-1 0v-4zm8.854 6.354a.5.5 0 01-.708-.708l1-1a.5.5 0 01.708.708l-1 1zm-3 0a.5.5 0 01-.708-.708l4-4a.5.5 0 01.708.708l-4 4z"></path></svg>
+                                <span>Tủ lạnh</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-utilities-item">
+                        <h3 class="subtitle">Tiện ích gia đình</h3>
+                        <ul class="item-grid">
+                            <li>
+                                <svg version="1.1" viewBox="0 0 24 24" class="svg-icon svg-fill" alt="" style="width: 24px; height: 24px;"><path pid="0" fill="#000" fill-rule="nonzero" d="M7 5.416c-1.048.18-2.054.416-3 .703V14h3V5.417zm1-.153V14h3.5V5.004c-1.197.02-2.37.107-3.5.26zm4.5-.259V14H16V5.263a29.966 29.966 0 00-3.5-.259zm4.5.412V14h3V6.12a24.728 24.728 0 00-3-.704zm4 1.034V14h2V7.304c-.622-.314-1.291-.6-2-.854zm2-.258V4.5a.5.5 0 011 0v16a.5.5 0 01-1 0V18H1v2.5a.5.5 0 11-1 0v-16a.5.5 0 111 0v1.692C3.99 4.792 7.875 4 12 4s8.011.792 11 2.192zM1 7.304V14h2V6.45c-.709.255-1.378.54-2 .854zM1 15v2h22v-2H1z"></path></svg>
+                                <span>Phù hợp với trẻ nhỏ</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3 class="title">Nội quy và chính sách về chỗ ở</h3>
+                <h3 class="subtitle">Chính sách hủy phòng</h3>
+                <p class="description">
+                    Miễn phí hủy phòng trong vòng 48h sau khi đặt phòng thành công và trước 5 ngày so với thời gian check-in. Hủy đặt phòng trong thời gian còn lại CTW Travel sẽ hoàn lại 50%
+                </p>
+
+                <h3 class="subtitle">Lưu ý đặc biệt</h3>
+                <p class="description">
+                    <p class="description">- Không làm ồn để tránh ảnh hưởng đến những hàng xóm xung quanh</p>
+                    <p class="description">- Sau khi bạn gửi ảnh hộ chiếu cho chúng tôi, chúng tôi sẽ gửi cho bạn mật mã để mở khóa vào nhà</p>
+                    <p class="description">- Bạn có thể nhận phòng sớm hơn hoặc trả phòng muộn hơn thời gian quy định tùy vào tình trạng phòng trống</p>
+                    <p class="description">- Bạn nên đặt phòng sớm trước 7 ngày để nhận được sự chăm sóc tốt nhất từ chúng tôi</p>
+                </p>
+            </div>
+
+            <div class="detail-sidebar detail-col">
+                <div class="detail-option-heart">
+                    <span>Lưu lại</span>
+                    <a href="javascript:void(0)" class="btn-heart detail-heart"><i class="far fa-heart"></i></a>
+                </div>
+                <div class="detail-booking">
+                    <h3 class="detail-price title">1,350,000</h3>
+                    <span>đ/đêm</span>
+
+                    <button type="button" class="button-date">
+                        <a href="javascript:void(0)" class="btn btn-date show-date">
+                            <i class="far fa-calendar show-date"></i>
+                            <span class="txt-date show-date">Ngày</span>
+                            <!-- <span>May 09 - May 28</span> -->
+                        </a>
+
+                        <div class="date-inner show-date">
+                            <div class="date-choice">
+                                <div class="checkin show-date">
+                                    <label for="#" class="lbl-date show-date">Nhận phòng</label>
+                                    <input id="today" type="date" name="" class="checkinday show-date" required>
+                                </div>
+                                <div class="checkout show-date">
+                                    <label for="#" class="lbl-date show-date">Trả phòng</label>
+                                    <input type="date" name="" id="" class="checkoutday show-date" required>
+                                </div>
+                            </div>
+
+                            <div class="date-options show-date">
+                                <a href="javascript:void(0)" class="btn-remove-date show-date">Xóa</a>
+                                <a href="javascript:void(0)" class="btn-apply-date show-visitor">Áp dụng</a>
+                            </div>
+                        </div>
+                    </button>    
+
+                    <button type="button" class="button-user">
+                        <a href="javascript:void(0)" class="btn btn-user show-visitor">
+                            <i class="fas fa-user show-visitor"></i>
+                            <span class="lbl-visitor show-visitor">Khách</span>
+                        </a>
+
+                        <div class="visitor-inner show-visitor">
+                            <div class="visitor-box show-visitor">
+                                <span class="show-visitor">Người lớn</span>
+                                <div class="visitor-amount show-visitor">
+                                    <span class="btn-circle btn-minus is-disabled show-visitor"><i class="fas fa-minus show-visitor"></i></span>
+                                    <input class="txt-visitor show-visitor" type="text" value="0"  readonly/>
+                                    <span class="adult btn-circle btn-plus show-visitor"><i class="fas fa-plus show-visitor"></i></span>
+                                </div>
+                            </div>
+
+                            <div class="visitor-box show-visitor">
+                                <span class="show-visitor">Trẻ em (tuổi từ 2 - 12)</span>
+                                <div class="visitor-amount show-visitor">
+                                    <span class="btn-circle btn-minus is-disabled show-visitor"><i class="fas fa-minus show-visitor"></i></span>
+                                    <input class="txt-visitor show-visitor" type="text" value="0" readonly/>
+                                    <span class="btn-circle btn-plus show-visitor"><i class="fas fa-plus show-visitor"></i></span>
+                                </div>
+                            </div>
+
+                            <div class="visitor-box show-visitor">
+                                <span class="show-visitor">Trẻ sơ sinh (Dưới 2 tuổi)</span>
+                                <div class="visitor-amount show-visitor">
+                                    <span class="btn-circle btn-minus is-disabled show-visitor"><i class="fas fa-minus show-visitor"></i></span>
+                                    <input class="txt-visitor show-visitor" type="text" value="0" readonly/>
+                                    <span class="btn-circle btn-plus show-visitor"><i class="fas fa-plus show-visitor"></i></span>
+                                </div>
+                            </div>
+
+                            <div class="visitor-options show-visitor">
+                                <a href="javascript:void(0)" class="btn-remove-visitor show-visitor">Xóa</a>
+                                <a href="javascript:void(0)" class="btn-apply-visitor">Áp dụng</a>
+                            </div>
+                        </div>
+                    </button>  
+
+                    <a href="javascript:void(0)" class="btn-booking">Đặt ngay</a>
+                </div>              
+
+            </div>       
+
+        </section>
+
+        <h3 class="title recommend">Chỗ ở CTW Travel đề xuất</h3>
+        <div class="rooms-inner room-recommend">
+        </div>
+
+        <div class="modal-payment modal">
+            <div class="modal-content">
+                <a href="#" class="btn-close"><i class="fas fa-times"></i></a>
+                <h3 class="modal-content-title title detail-title">Thanh toán</h3>
+
+                <div class="modal-content-inner">
+                    <div class="modal-header modal-header-payment">
+                        <h4>Chọn hình thức thanh toán</h4>
+                        <div>
+                            <input type="radio" name="card-payment" id="global">
+                            <label for="global">Thẻ quốc tế</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="card-payment" id="local">
+                            <label for="local">Thẻ ATM nội địa</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="card-payment" id="transfer">
+                            <label for="transfer">Chuyển khoản</label>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-cardnumber">
+                            <input class="txt-user cardnumber" type="text" placeholder="Số thẻ" required>
+                            <i class="far fa-credit-card"></i>
+                        </div>
+                        <div class="content-cardpin">
+                            <input class="txt-user cardpin" type="password" placeholder="Mã PIN" required>
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <a href="javascript:void(0)" class="btn-payment">Thanh toán ngay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-detail modal">
+            <div class="modal-content detail-content">
+                <a href="#" class="btn-close"><i class="fas fa-times"></i></a>
+                <h3 class="modal-content-title title detail-title">Chi tiết đặt phòng</h3>
+
+                <div class="modal-content-inner">
+                    <div class="modal-header">
+                        <div class="modal-header-left">
+                            <h3>Giraffe Room 1</h3>
+                            <p>Hà Nội, Việt Nam 1</p>
+                        </div>
+                        <div class="modal-header-right">
+                            <img class="img-product" src="/assets/img/homestay1.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-body-item">
+                            <div class="book-time booking">
+                                <i class="far fa-calendar-alt"></i>
+                                <span class="detail-time">1</span>
+                                <span>đêm</span>
+                                <span class="booking-date">
+                                    <span>2021-05-06</span>
+                                    <span>/</span>
+                                    <span>2021-05-10</span>
+                                </span>
+                            </div>
+
+                            <div class="book-visitor booking">
+                                <i class="fas fa-user-friends"></i>
+                                <span class="detail-visitors">2</span>
+                                <span>Khách</span>
+                            </div>
+                        </div>
+
+                        <div class="modal-body-item booking-price">
+                            <span>Giá thuê 1 đêm</span>
+                            <span>1,350,000đ</span>
+                        </div>
+
+                        <div class="modal-body-item booking-price">
+                            <span>Tổng tiền</span>
+                            <span class="detail-total-price">1,350,000đ</span>
+                        </div>
+
+                        <a href="javascript:void(0)" class="btn-addtocart">Xác nhận</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Alert success/fail -->
+        <div class="alert alert-success ">
+            <a href="#" class="close">&times;</a>
+            <strong>Success! </strong><span>Bạn đã đặt phòng thành công.</span>
+        </div>
+        
+        <!-- Đăng nhập -->
+        <div class="modal-login modal">
+            <div class="modal-content">
+                <a href="#" class="btn-close"><i class="fas fa-times"></i></a>
+                <h3 class="modal-content-title title">Đăng nhập</h3>
+
+                <form action="#">
+                    <div class="content-email">
+                        <input class="txt-user email" type="text" placeholder="Địa chỉ email" required>
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="content-password">
+                        <input class="txt-user password" type="password" placeholder="Mật khẩu" required>
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="options-pass">
+                        <input type="checkbox" id="remember"><label for="remember" class="lbl-remember">Nhớ mật khẩu</label>
+                        <a href="#" class="btn-forget">Quên mật khẩu</a>
+                    </div>
+                    <button type="submit" class="btn btn-login-submit">Đăng nhập</button>
+                    <h3 class="title-separate">Hoặc</h3>
+                    <a href="#" class="login-facebook login-option"><span>Đăng nhập với Facebook</span><i class="fab fa-facebook-square"></i></a>                    
+                    <a href="#" class="login-google login-option"><span>Đăng nhập với Google</span><i class="fab fa-google"></i></a>                    
+                </form>
+            </div>
+        </div>
+        <!-- Đăng ký -->
+        <div class="modal-register modal">
+            <div class="modal-content">
+                <a href="#" class="btn-close"><i class="fas fa-times"></i></a>
+                <h3 class="modal-content-title title">Đăng ký</h3>
+
+                <form action="#">
+                    <div class="content-name">
+                        <input class="txt-user register-name" type="text" placeholder="Họ và tên" required>
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="content-email">
+                        <input class="txt-user register-email" type="text" placeholder="Địa chỉ email" required>
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="content-password">
+                        <input class="txt-user register-password" type="password" placeholder="Mật khẩu" required>
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="content-verify-password">
+                        <input class="txt-user verify-password" type="password" placeholder="Xác nhận mật khẩu" required>
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <button type="submit" class="btn btn-register-submit">Đăng ký</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="/assets/js/slide.js"></script>
+    <script src="/assets/js/account.js"></script>
+    <script src="/assets/js/search-tool.js"></script>   
+    <script src="/assets/js/data.js"></script> 
+    <script src="/assets/js/navbar.js"></script>
+    <script src="/assets/js/product.js"></script>
+    <script src="/assets/js/detail_product.js"></script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/product.css">
+</head>
+<body>
+    <div id="products" class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <a href="#" class="nav-logo">CTW Travel</a>
+                
+                <ul class="nav-list detail-product-nav">
+                    <li class="nav-item"><a href="#hero" class="nav-link current-page">Khám phá</a></li>
+                    <li class="nav-item"><a href="#news" class="nav-link">Tin tức</a></li>
+                    <li class="nav-item"><a href="/assets/html/contact.html" class="nav-link">Liên hệ</a></li>
+                </ul>
+                <div class="nav-options">
+                    <li class="option-item"><a href="#" class="option btn-host">Host</a></li>
+                    <li class="option-item">
+                        <a href="#" class="btn-account show-user-menu">
+                            <img src="/assets/img/img-99.jpg" alt="User Img" class="option-item-img show-user-menu">
+                            <span class="option-item-name show-user-menu">Dang Hoang Long</span>
+                            <span class="down-arrow show-user-menu">
+                                <i class="fas fa-sort-down show-user-menu"></i>
+                            </span>
+                        </a>
+                        <ul class="user-menu show-user-menu">
+                            <span class="triangle"></span>
+                            <li>
+                                <a href="/assets/html/cart.html" class="user-menu-link show-user-menu">
+                                    <i class="fas fa-briefcase show-user-menu"></i>
+                                    <span class="user-menu-name show-user-menu">Đặt chỗ của tôi</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="user-menu-link show-user-menu">
+                                    <i class="far fa-envelope show-user-menu"></i>
+                                    <span class="user-menu-name show-user-menu">Tin nhắn</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/assets/html/user.html" class="user-menu-link show-user-menu">
+                                    <i class="fas fa-cog show-user-menu"></i>
+                                    <span class="user-menu-name show-user-menu">Cài đặt tài khoản</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="user-menu-link show-user-menu">
+                                    <i class="far fa-heart show-user-menu"></i>
+                                    <span class="user-menu-name show-user-menu">Yêu thích</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="user-menu-link show-user-menu btn-logout">
+                                    <i class="fas fa-power-off show-user-menu"></i>
+                                    <span class="user-menu-name show-user-menu">Đăng xuất</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="option-item">
+                        <a href="#" class="btn-language show-region">
+                            <img src="/assets/img/vietnam.png" alt="Viet Nam" class="option-item-img show-region">
+                            <span class="option-item-name show-region">VND</span>
+                            <span class="down-arrow show-region">
+                                <i class="fas fa-sort-down show-region"></i>
+                            </span>
+                        </a>
+                        <ul class="list-region show-region">
+                            <span class="triangle show-region"></span>
+                            <ul class="list-region-lan show-region">
+                                <li class="lan-item show-region">
+                                    <a href="#" class="lan-link show-region">
+                                        <img src="/assets/img/vietnam.png" alt="VietNam" class="lan-img show-region">
+                                        <span class="lan-name show-region">Tiếng Việt</span>
+                                        <i class="fas fa-check show-region"></i>
+                                    </a>
+                                </li>
+                                <li class="lan-item show-region">
+                                    <a href="#" class="lan-link show-region">
+                                        <img src="/assets/img/england.png" alt="England" class="lan-img show-region">
+                                        <span class="lan-name show-region">English</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <ul class="list-region-price show-region">
+                                <li class="price-item show-region">
+                                    <a href="#" class="price-link show-region">
+                                        <strong class="show-region">VND</strong>
+                                        <span class="price-name show-region">Việt Nam Đồng</span>
+                                        <i class="fas fa-check show-region"></i>
+                                    </a>
+                                </li>
+                                <li class="price-item show-region">
+                                    <a href="#" class="price-link show-region">
+                                        <strong class="show-region">USD</strong>
+                                        <span class="price-name show-region">United States Dollar</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    
+                </div>                
+            </nav>
+        </header>
+
+        <section id="rooms" class="container">
+            <div class="filter-room">
+                <div>
+                    <span class="search-location">
+                        <i class="fas fa-search"></i>
+                        <input class="txt-place" type="search" placeholder="Tìm kiếm địa điểm...">
+                    </span>
+                    
+                    <a href="#" class="btn-search">
+                        <span><i class="fas fa-search"></i></span>
+                    </a>
+                </div>
+
+                <div>
+                    <div class="type-container">
+                        <a href="#" class="btn-type">Loại phòng</a>
+                        <div class="type-list">
+                            <div>
+                                <input class="radTypeRoom" type="radio" name="type" id="homeStay"/>
+                                <label class="lbl-type" for="homeStay">Homestay</label>
+                            </div>
+                            <div>
+                                <input class="radTypeRoom" type="radio" name="type" id="home"/>
+                                <label class="lbl-type" for="home">Nhà riêng</label>
+                            </div>
+                            <div>
+                                <input class="radTypeRoom" type="radio" name="type" id="villa" />
+                                <label class="lbl-type" for="villa">Biệt thự</label>
+                            </div>
+                            <div>
+                                <input class="radTypeRoom" type="radio" name="type" id="apart"/>
+                                <label class="lbl-type" for="apart">Chung cư</label>
+                            </div>
+                            <div>
+                                <input class="radTypeRoom" type="radio" name="type" id="studio"/>
+                                <label class="lbl-type" for="studio">Căn hộ studio</label>
+                            </div>
+
+                            <div class="type-options">
+                                <a href="#" class="btn-remove-type">Xóa</a>
+                                <a href="#" class="btn-apply-type">Áp dụng</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sort-container">
+                        <a href="#" class="btn-sort-price">Giá</a>
+                        <div class="sort-list">
+                            <a href="#" class="btn-sort btn-asc">Sắp xếp tăng dần</a>                            
+                            <a href="#" class="btn-sort btn-desc">Sắp xếp giảm dần</a>
+                            <!-- <a href="#" class="btn-sort btn-cancel-sort">Bỏ sắp xếp</a>                               -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rooms-inner product-inner">
+            </div>
+
+            <div class="pagination">
+                <div class="pagination-wrapper">
+                    <!-- <a href="#" class="btn-arrow btn-page-prev"><i class="fas fa-chevron-left"></i></a>
+                    <ul class="number-page" id="product-page">
+                        <li><a class="page-active" href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                    </ul>
+                    <a href="#" class="btn-arrow btn-page-next"><i class="fas fa-chevron-right"></i></a> -->
+                </div>
+        </section>
+
+        <table style="display: none;" class="product-list">
+            <tr>
+              <th>STT</th>
+              <th>Mã chỗ ở</th>
+              <th>Tên chỗ ở</th>
+              <th>Địa chỉ</th>
+              <th>Giá phòng</th>
+              <th>Loại phòng</th>
+              <th>Hình ảnh</th>
+              <th>Tác vụ</th>
+              <th>Hiển thị</th>
+            </tr>
+            <tbody class="tb-body">
+              <!-- Render -->
+            </tbody>
+        </table>
+
+               <!-- Đăng nhập -->
+        <div class="modal-login modal">
+            <div class="modal-content">
+                <a href="#" class="btn-close"><i class="fas fa-times"></i></a>
+                <h3 class="modal-content-title title">Đăng nhập</h3>
+
+                <form action="#">
+                    <div class="content-email">
+                        <input class="txt-user email" type="text" placeholder="Địa chỉ email" required>
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="content-password">
+                        <input class="txt-user password" type="password" placeholder="Mật khẩu" required>
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="options-pass">
+                        <input type="checkbox" id="remember"><label for="remember" class="lbl-remember">Nhớ mật khẩu</label>
+                        <a href="#" class="btn-forget">Quên mật khẩu</a>
+                    </div>
+                    <button type="submit" class="btn btn-login-submit">Đăng nhập</button>
+                    <h3 class="title-separate">Hoặc</h3>
+                    <a href="#" class="login-facebook login-option"><span>Đăng nhập với Facebook</span><i class="fab fa-facebook-square"></i></a>                    
+                    <a href="#" class="login-google login-option"><span>Đăng nhập với Google</span><i class="fab fa-google"></i></a>                    
+                </form>
+            </div>
+        </div>
+        <!-- Đăng ký -->
+        <div class="modal-register modal">
+            <div class="modal-content">
+                <a href="#" class="btn-close"><i class="fas fa-times"></i></a>
+                <h3 class="modal-content-title title">Đăng ký</h3>
+
+                <form action="#">
+                    <div class="content-name">
+                        <input class="txt-user register-name" type="text" placeholder="Họ và tên" required>
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="content-email">
+                        <input class="txt-user register-email" type="text" placeholder="Địa chỉ email" required>
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="content-password">
+                        <input class="txt-user register-password" type="password" placeholder="Mật khẩu" required>
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="content-verify-password">
+                        <input class="txt-user verify-password" type="password" placeholder="Xác nhận mật khẩu" required>
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <button type="submit" class="btn btn-register-submit">Đăng ký</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="/assets/js/data.js"></script>
+    <script src="/assets/js/account.js"></script>
+    <script src="/assets/js/navbar.js"></script>
+    <script src="/assets/js/admin.js"></script>
+    <script src="/assets/js/product.js"></script>
+    <script src="/assets/js/detail_product.js"></script>
+</body>
+</html>
