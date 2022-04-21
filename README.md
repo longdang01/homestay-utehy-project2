@@ -1,2 +1,3 @@
 Project 2 at Hung Yen University Technology and Education
-Using HTML, CSS, JAVASCRIPT
+Link web: https://wbs-homestay.netlify.app/
+Deployed: Netlify
